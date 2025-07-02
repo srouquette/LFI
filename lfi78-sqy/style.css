@@ -1,0 +1,52 @@
+.e-content {
+    background:
+        linear-gradient(to right, rgba(255, 255, 255, 0.9) 0 100%),
+        url(https://raw.githubusercontent.com/srouquette/LFI/refs/heads/main/lfi78-sqy/LFI78-SQY-MARGIN.png)
+            no-repeat center center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+a,
+a:visited {
+    color: #000;
+}
+a:hover {
+    color: #f91616;
+}
+.action-populaire {
+    color: #f91616 !important;
+}
+.petition,
+.petition a {
+    color: #f91616 !important;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+.icon {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    text-align: left;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.icon-action-populaire {
+    background-image: url("https://raw.githubusercontent.com/srouquette/LFI/refs/heads/main/lfi78-sqy/icon-action-populaire.png");
+}
+.icon-peertube {
+    background-image: url("https://raw.githubusercontent.com/srouquette/LFI/refs/heads/main/lfi78-sqy/icon-peertube.png");
+}
+.icon-rss {
+    background-image: url("https://raw.githubusercontent.com/srouquette/LFI/refs/heads/main/lfi78-sqy/icon-rss.png");
+}
+.icon-telegram {
+    background-image: url("https://raw.githubusercontent.com/srouquette/LFI/refs/heads/main/lfi78-sqy/icon-telegram.png");
+}
+.icon-youtube {
+    background-image: url("https://raw.githubusercontent.com/srouquette/LFI/refs/heads/main/lfi78-sqy/icon-youtube.png");
+}
